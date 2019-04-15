@@ -1,0 +1,62 @@
+.about-content{
+    h2{padding: 15px;}
+    p{font-size: 1.7rem;
+        padding: 0 15px;
+        text-align: center;
+        text-decoration: underline;
+        letter-spacing: 1px;
+        font-weight: bold;
+        color: darkblue;}
+    form{
+        .column;
+        background: #81848e1a;
+        padding: 15px;
+        margin-top: 4%;
+        line-height: 1.3rem;
+        input{
+            border: transparent;
+            border-bottom: 1px solid black;
+            max-width: 50%;
+            height: 29px;
+            font-size: 1.5rem;
+            color: @waterloo;}
+    .submit{ 
+        .startup-btn(@btn-bg-color;@porcelain);
+        padding: 4px 8px;}}
+}
+
+
+//animation
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
